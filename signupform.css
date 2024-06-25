@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing:border-box;
+    margin:0%;
+    font-family:"Roboto", sans-serif;
+    /* border:1px solid red; */
+}
+.main{
+    display:flex;
+    flex-direction:row;
+}
+.one{
+    width:50%;
+}
+.imageries{
+    width:80%;
+    margin-top:15%;
+    margin-left: 7%;
+}
+.two{
+    width:50%;
+}
+.formy{
+    display:flex;
+    flex-direction: column;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1%;
+    color:#2709aa;
+    text-decoration: underline 5px gold;
+}
+label{
+    font-size:20px;
+    font-weight: 300;
+    margin-top: 2%;
+    margin-bottom: 0.8%;
+    color:aqua;
+}
+input[type="text"],[type="email"],[type="password"]{
+    padding: 1%;
+    width: 90%;
+    border:0.5px solid grey;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 30px;
+}
+.arrange{
+    padding-top: 3%;
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 4%;
+}
+.arrange h6{
+    font-size: 15px;
+    font-weight: bold;
+    color:aqua;
+    margin-left: 4%;
+}
+.arrange input[type="checkbox"]{
+    accent-color:yellow;
+    margin-left: 2%;
+}
+.btn{
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1%;
+    width:90%
+}
+.btn:hover{
+    transform: scale(1,1);
+    border:1px solid aqua;
+    background-color: white;
+    color:black;
+}
+.last{
+    font-size: 20px;
+    text-align:center;
+    margin-top: 1%;
+}
+.last a{
+    text-decoration: none;
+    color:aqua;
+}
